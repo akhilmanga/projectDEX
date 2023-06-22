@@ -16,12 +16,6 @@ function App() {
 
     <div className="App">
       <Header connect={connect} isConnected={isConnected} address={address} />
-      <div className="mainWindow">
-        <Routes>
-          <Route path="/" element={<Swap isConnected={isConnected} address={address} />} />
-          <Route path="/tokens" element={<Tokens />} />
-        </Routes>
-      </div>
 
     </div>
   )
